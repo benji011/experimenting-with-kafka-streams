@@ -9,7 +9,7 @@ WARNING: Due to limitations in metric names, topics with a period ('.') or under
 Created topic popular_tweets.
 ```
 
-Start the project
+Run the producer from [this repo](https://github.com/benji011/kafka-twitter-app) then run the [stream](src/main/java/streams/StreamsFilter.java)
 
 ```bash
 [experimenting-with-kafka-streams-066f70dd-505f-478b-9d04-973a9c036b89-StreamThread-1] INFO org.apache.kafka.clients.consumer.internals.SubscriptionState - [Consumer clientId=experimenting-with-kafka-streams-066f70dd-505f-478b-9d04-973a9c036b89-StreamThread-1-consumer, groupId=experimenting-with-kafka-streams] Resetting offset for partition tweets-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 0 rack: null)], epoch=0}}.
